@@ -17,7 +17,7 @@ class Brand extends Component {
             className='brand-wrapper swiper-slides wow fadeInUp mr-30'
             data-wow-delay='.6s'
             data-swiper-autoplay='10000'>
-            <a href='https://www.www.peintureshazardsamin.com'>
+            <a href='https://www.peintureshazardsamin.com'>
               <Image
                 src='https://www.peintureshazardsamin.com/images/logo/logo.svg'
                 className='img-fluid'
