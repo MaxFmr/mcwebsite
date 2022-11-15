@@ -26,7 +26,7 @@ const Footer = () => {
                   <Link href='/'>
                     <a>
                       <Image
-                        src='/assets/img/logo/logo.svg'
+                        src='/assets/img/logo/favicon.png'
                         className='img-fluid'
                         alt='MC production logo'
                         height={100}
