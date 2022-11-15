@@ -56,6 +56,7 @@ const Header = () => {
                           alt='logo-img'
                           width={80}
                           height={80}
+                          quality={100}
                         />
                       </a>
                     </Link>
