@@ -204,9 +204,12 @@ const Header = () => {
                         <i className='fas fa-search'></i>
                       </span>
                     </div> */}
+
                     <div className='header-btn'>
-                      <Link href='/about'>
-                        <a className='theme-btn theme-btn-small'>
+                      <Link href='https://calendly.com/mc-production/30min'>
+                        <a
+                          target={'_blank'}
+                          className='theme-btn theme-btn-small'>
                           Prenons Rendez-vous
                         </a>
                       </Link>
