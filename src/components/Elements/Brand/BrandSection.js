@@ -13,7 +13,7 @@ class Brand extends Component {
           <h2>Nos réalisations</h2>
         </div>
 
-        <div className='d-flex justify-content-center mt-20'>
+        <div className='d-flex justify-content-center mt-20 '>
           <div
             className='brand-wrapper swiper-slides wow fadeInUp mr-30'
             data-wow-delay='.6s'

@@ -17,26 +17,25 @@ const Header = () => {
   }, [router]);
 
   // Sticky Menu Area start
-  useEffect(() => {
-    window.addEventListener('scroll', sticky);
-    return () => {
-      window.removeEventListener('scroll', sticky);
-    };
-  });
+  // useEffect(() => {
+  //   window.addEventListener('scroll', sticky);
+  //   return () => {
+  //     window.removeEventListener('scroll', sticky);
+  //   };
+  // });
 
-  const sticky = (e) => {
-    const header = document.querySelector('.transparent-header');
-    const scrollTop = window.scrollY;
-    scrollTop >= 1
-      ? header.classList.add('sticky-header')
-      : header.classList.remove('sticky-header');
-  };
+  // const sticky = (e) => {
+  //   const header = document.querySelector('.transparent-header');
+  //   const scrollTop = window.scrollY;
+  //   scrollTop >= 1
+  //     ? header.classList.add('sticky-header')
+  //     : header.classList.remove('sticky-header');
+  // };
   // Sticky Menu Area End
 
   return (
     <React.Fragment>
       <Head>
-        <title>Kimox – Digital Agency React, NextJs Template</title>
         <link
           href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap'
           rel='stylesheet'
@@ -48,7 +47,7 @@ const Header = () => {
             <div className='header-space'>
               <div className='row align-items-center'>
                 <div className='col-xl-2 col-8'>
-                  <div className='header-logo'>
+                  <div className='header-logo ml-50'>
                     <Link href='/'>
                       <a>
                         <Image
