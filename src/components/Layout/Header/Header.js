@@ -220,16 +220,6 @@ const Header = () => {
             </div>
           </div>
         </div>
-
-        <BurgerMenus menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <div
-          onClick={() => setMenuOpen(false)}
-          className={menuOpen ? 'body-overlay show' : 'body-overlay'}></div>
-
-        <HeaderSearch searchOpen={searchOpen} setSearchOpen={setSearchOpen} />
-        <div
-          onClick={() => setSearchOpen(false)}
-          className={searchOpen ? 'body-overlay show' : 'body-overlay'}></div>
       </header>
     </React.Fragment>
   );

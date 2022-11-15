@@ -9,7 +9,7 @@ import Link from 'next/link';
 class HomeSlider extends Component {
   render() {
     return (
-      <section className='slider-area fix position-relative '>
+      <section className='slider-area fix position-relative mb-100 '>
         <div className='slider-active swiper-container'>
           <div className='swiper-wrapper'>
             <div
@@ -32,7 +32,7 @@ class HomeSlider extends Component {
                           </h5> */}
 
                       <h2
-                        className='kslider--title mb-40 ml-100'
+                        className='kslider--title mb-40 ml-50'
                         data-animation='fadeInUp'
                         data-delay='0.5s'>
                         MC <br />
@@ -42,6 +42,16 @@ class HomeSlider extends Component {
                         <h3>
                           L'expertise digitale et video en Hauts-de-France
                         </h3>
+                      </div>
+
+                      <div className='header-btn'>
+                        <Link href='https://calendly.com/mc-production/30min'>
+                          <a
+                            target={'_blank'}
+                            className='theme-btn theme-btn-small ml-100 mt-50'>
+                            Prenons Rendez-vous
+                          </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
