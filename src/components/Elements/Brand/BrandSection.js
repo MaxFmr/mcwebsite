@@ -7,9 +7,8 @@ import 'swiper/css/bundle';
 class Brand extends Component {
   render() {
     return (
-      <div className='mt-100 mb-100'>
+      <div className='mb-100'>
         <div className='ml-100'>
-          {' '}
           <h2>Nos réalisations</h2>
         </div>
 
