@@ -4,80 +4,82 @@ import About from './AboutSection';
 import Cta from './CtaSection';
 import Service from './ServiceSection';
 import dynamic from 'next/dynamic';
-const HomeSlider = dynamic(() => import('../Elements/Slider/HomeSliderSection'), {
-    ssr: false
-  })
-const Testimonial = dynamic(() => import('../Elements/Testimonials/TestimonialsSection'), {
-    ssr: false
-  })
+const HomeSlider = dynamic(
+  () => import('../Elements/Slider/HomeSliderSection'),
+  {
+    ssr: false,
+  }
+);
+const Testimonial = dynamic(
+  () => import('../Elements/Testimonials/TestimonialsSection'),
+  {
+    ssr: false,
+  }
+);
 const Brand = dynamic(() => import('../Elements/Brand/BrandSection'), {
-    ssr: false
-})
+  ssr: false,
+});
 import Trust from './TrustSection';
 import Quality from './QualitySection';
 import Map from './MapSection';
 import Project from './ProjectSection';
-const BlogSlider = dynamic(() => import('../Elements/Slider/BlogSliderSection'), {
-    ssr: false
-})
+const BlogSlider = dynamic(
+  () => import('../Elements/Slider/BlogSliderSection'),
+  {
+    ssr: false,
+  }
+);
 
 class HomeMain extends Component {
+  render() {
+    return (
+      <main>
+        {/* slider-start */}
+        <HomeSlider />
+        {/* slider-end */}
 
-    render() {
+        {/* service-start */}
+        <Service />
+        {/* service-end */}
 
-        return (
-            <main>
-	            {/* slider-start */}
-				<HomeSlider />
-				{/* slider-end */}
+        {/* cta-start */}
+        {/* <Cta /> */}
+        {/* cta-end */}
 
-                {/* service-start */}
-				<Service />
-				{/* service-end */}
+        {/* about-start */}
+        <About />
+        {/* about-end */}
 
-                {/* cta-start */}
-				<Cta />
-				{/* cta-end */}
+        {/* project-start */}
+        {/* <Project /> */}
+        {/* project-end */}
 
-                {/* about-start */}
-				<About />
-				{/* about-end */}
+        {/* video-start */}
+        {/* <Video /> */}
+        {/* video-end */}
 
-                {/* project-start */}
-				<Project />
-				{/* project-end */}
+        {/* testimonial-start */}
+        {/* <Testimonial /> */}
+        {/* testimonial-end */}
 
-                {/* video-start */}
-				<Video />
-				{/* video-end */}
+        {/* brand-start */}
+        <Brand />
+        {/* brand-end */}
 
-                {/* testimonial-start */}
-				<Testimonial />
-				{/* testimonial-end */}
+        {/* trust-start */}
+        {/* <Trust /> */}
+        {/* trust-end */}
 
-                {/* brand-start */}
-				<Brand />
-				{/* brand-end */}
+        {/* quality-start */}
+        {/* <Quality /> */}
+        {/* quality-end */}
 
-                {/* trust-start */}
-				<Trust />
-				{/* trust-end */}
-
-                {/* blog-start */}
-				<BlogSlider />
-				{/* blog-end */}
-
-                {/* quality-start */}
-				<Quality />
-				{/* quality-end */}
-
-                {/* map-start */}
-				<Map />
-				{/* map-end */}
-
-        	</main>
-        );
-    }
+        {/* map-start */}
+        {/* <Map /> */}
+        {/* map-end */}
+      </main>
+    );
+  }
 }
 
 export default HomeMain;

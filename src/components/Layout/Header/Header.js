@@ -52,7 +52,7 @@ const Header = () => {
                     <Link href='/'>
                       <a>
                         <Image
-                          src='/assets/img/logo/logo-white.png'
+                          src='/assets/img/logo/logo.svg'
                           className='img-fluid'
                           alt='logo-img'
                           width={80}
@@ -67,10 +67,10 @@ const Header = () => {
                     <nav id='mobile-menu'>
                       <ul>
                         <li className='menu-item-has-children'>
-                          <Link href='/'>
-                            <a>Home</a>
-                          </Link>
-                          <ul className='sub-menu'>
+                          {/* <Link href='/'>
+                            <a>Accueil</a>
+                          </Link> */}
+                          {/* <ul className='sub-menu'>
                             <li>
                               <Link href='/'>
                                 <a>Home Style 1</a>
@@ -81,18 +81,18 @@ const Header = () => {
                                 <a>Home Style 2</a>
                               </Link>
                             </li>
-                          </ul>
+                          </ul> */}
                         </li>
                         <li>
-                          <Link href='/about'>
-                            <a>About</a>
-                          </Link>
+                          {/* <Link href='/about'>
+                            <a>A propos</a>
+                          </Link> */}
                         </li>
                         <li className='menu-item-has-children'>
-                          <Link href='/service'>
+                          {/* <Link href='/service'>
                             <a>Services</a>
-                          </Link>
-                          <ul className='sub-menu'>
+                          </Link> */}
+                          {/* <ul className='sub-menu'>
                             <li>
                               <Link href='/service'>
                                 <a>Services</a>
@@ -103,13 +103,13 @@ const Header = () => {
                                 <a>Services Details</a>
                               </Link>
                             </li>
-                          </ul>
+                          </ul> */}
                         </li>
                         <li className='menu-item-has-children'>
-                          <Link href='/project'>
-                            <a>Projects</a>
-                          </Link>
-                          <ul className='sub-menu'>
+                          {/* <Link href='/project'>
+                            <a>Réalisations</a>
+                          </Link> */}
+                          {/* <ul className='sub-menu'>
                             <li>
                               <Link href='/project'>
                                 <a>Projects</a>
@@ -120,13 +120,13 @@ const Header = () => {
                                 <a>Projects Details</a>
                               </Link>
                             </li>
-                          </ul>
+                          </ul> */}
                         </li>
                         <li className='menu-item-has-children'>
-                          <Link href='/blog'>
+                          {/* <Link href='/blog'>
                             <a>Blog</a>
-                          </Link>
-                          <ul className='sub-menu'>
+                          </Link> */}
+                          {/* <ul className='sub-menu'>
                             <li>
                               <Link href='/blog'>
                                 <a>Blog</a>
@@ -137,9 +137,9 @@ const Header = () => {
                                 <a>Blog Details</a>
                               </Link>
                             </li>
-                          </ul>
+                          </ul> */}
                         </li>
-                        <li>
+                        {/* <li>
                           <a href='#'>Pages</a>
                           <ul className='sub-menu'>
                             <li>
@@ -158,11 +158,11 @@ const Header = () => {
                               </Link>
                             </li>
                           </ul>
-                        </li>
+                        </li> */}
                       </ul>
                     </nav>
                   </div>
-                  <div className='side-menu-icon d-xl-none text-end'>
+                  {/* <div className='side-menu-icon d-xl-none text-end'>
                     <span
                       className='search-btn nav-search search-trigger'
                       onClick={() => {
@@ -177,25 +177,25 @@ const Header = () => {
                       }}>
                       <i className='far fa-bars'></i>
                     </button>
-                  </div>
+                  </div> */}
                 </div>
                 <div className='col-xl-4 d-none d-xl-block'>
                   <div className='header-right text-end'>
                     <div className='header-social'>
-                      <a href='#' target='_blank'>
+                      {/* <a href='#' target='_blank'>
                         <i className='fab fa-twitter'></i>
-                      </a>
-                      <a href='#' target='_blank'>
+                      </a> */}
+                      {/* <a href='#' target='_blank'>
                         <i className='fab fa-facebook-f'></i>
-                      </a>
-                      <a href='#' target='_blank'>
+                      </a> */}
+                      {/* <a href='#' target='_blank'>
                         <i className='fab fa-pinterest-p'></i>
-                      </a>
-                      <a href='#' target='_blank'>
+                      </a> */}
+                      {/* <a href='#' target='_blank'>
                         <i className='fab fa-instagram'></i>
-                      </a>
+                      </a> */}
                     </div>
-                    <div className='header-search'>
+                    {/* <div className='header-search'>
                       <span
                         className='search-btn nav-search search-trigger'
                         onClick={() => {
@@ -203,11 +203,11 @@ const Header = () => {
                         }}>
                         <i className='fas fa-search'></i>
                       </span>
-                    </div>
+                    </div> */}
                     <div className='header-btn'>
                       <Link href='/about'>
                         <a className='theme-btn theme-btn-small'>
-                          Free Estimate
+                          Prenons Rendez-vous
                         </a>
                       </Link>
                     </div>
