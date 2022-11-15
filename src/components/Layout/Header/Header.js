@@ -47,7 +47,7 @@ const Header = () => {
             <div className='header-space'>
               <div className='row align-items-center'>
                 <div className='col-xl-2 col-8'>
-                  <div className='header-logo ml-50'>
+                  <div className='header-logo'>
                     <Link href='/'>
                       <a>
                         <Image
