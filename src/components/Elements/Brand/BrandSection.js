@@ -13,9 +13,9 @@ class Brand extends Component {
           <h2>Nos réalisations</h2>
         </div>
 
-        <div className='d-flex justify-content-center'>
+        <div className='d-flex justify-content-center mt-20'>
           <div
-            className='brand-wrapper swiper-slides wow fadeInUp'
+            className='brand-wrapper swiper-slides wow fadeInUp mr-30'
             data-wow-delay='.6s'
             data-swiper-autoplay='10000'>
             <a href='https://www.www.peintureshazardsamin.com'>
@@ -23,14 +23,14 @@ class Brand extends Component {
                 src='https://www.peintureshazardsamin.com/images/logo/logo.svg'
                 className='img-fluid'
                 alt='img'
-                height={200}
-                width={200}
+                height={150}
+                width={150}
               />
             </a>
           </div>
 
           <div
-            className='brand-wrapper swiper-slides wow fadeInUp ml-200 '
+            className='brand-wrapper swiper-slides wow fadeInUp ml-30'
             data-wow-delay='.9s'
             data-swiper-autoplay='10000'>
             <a href='https://www.latabledelabruyere.com'>
@@ -38,8 +38,8 @@ class Brand extends Component {
                 src='https://res.cloudinary.com/amenitiz/image/upload/w_400,dpr_auto,f_auto,q_auto:best/v1623367681/htxxichf25nfag2swo7o.png'
                 className='img-fluid'
                 alt='img'
-                height={200}
-                width={200}
+                height={150}
+                width={150}
                 objectFit='cover'
               />
             </a>
