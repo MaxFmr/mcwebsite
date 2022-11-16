@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import Video from '../Elements/Video/VideoSection';
 import About from './AboutSection';
-import Cta from './CtaSection';
 import Service from './ServiceSection';
 import dynamic from 'next/dynamic';
+import Image from 'next/image';
 const HomeSlider = dynamic(
   () => import('../Elements/Slider/HomeSliderSection'),
   {

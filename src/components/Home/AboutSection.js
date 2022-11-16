@@ -52,10 +52,15 @@ class About extends Component {
                 <div className='section-title-wrapper mb-45'>
                   {/* <h5 className="section-subtitle mb-20">get to know us</h5> */}
                   <h2 className='section-title mb-35'>
-                    Notre Expertise digitale <br />
+                    Notre Expertise <br />
                     au service de vos besoins
                   </h2>
-                  <p>Notre crédo : "Mettons votre métier en valeur."</p>
+                  <p>
+                    MC c'est la rencontre entre deux passionnés par le web,
+                    l'image et le son animés par le désire de mettre leur
+                    compétences à la disposition des entreprises et des
+                    particuliers.
+                  </p>
                 </div>
                 <div className='row'>
                   <div className='col-sm-6'>
@@ -77,12 +82,21 @@ class About extends Component {
                   <li>
                     <i className='fal fa-check'></i> Conseil et pédagogie
                   </li>
+                  <p>Nous nous adaptons à votre réalité et votre budget.</p>
                   <li>
                     <i className='fal fa-check'></i> Observation des tendances
                   </li>
+                  <p>
+                    Nous utilisons les technologies les plus modernes (ReactJS,
+                    noCode, lowCode etc.).
+                  </p>
                   <li>
                     <i className='fal fa-check'></i>Adaptabilité et suivi
                   </li>
+                  <p>
+                    Soyons partenaires et pratiquons ensemble la fertilisation
+                    croisée !
+                  </p>
                 </ul>
               </div>
             </div>
