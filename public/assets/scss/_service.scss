@@ -6,7 +6,6 @@
 .service-area {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   @include mq(md) {
     padding-bottom: 160px;
     padding-top: 115px;
@@ -28,6 +27,35 @@
   position: relative;
   z-index: 1;
   @include transition(0.3s);
+  &:before {
+    position: absolute;
+    content: '';
+    height: 70px;
+    width: 140px;
+    background: $white-color;
+    opacity: 0.02;
+    z-index: -1;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+  }
+  &:hover {
+    background: $theme-color;
+    &:before {
+      opacity: 0.102;
+    }
+    .kservice-icon {
+      animation-name: wobble-vertical;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: 1;
+      & i {
+        color: $white-color;
+      }
+    }
+  }
 }
 .kservice-icon {
   display: inline-block;

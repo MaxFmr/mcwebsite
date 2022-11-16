@@ -24,12 +24,15 @@ class HomeSlider extends Component {
                 <div className='row'>
                   <div className='col-lg-12'>
                     <div className='kslider z-index'>
-                      {/* <h5
-                            className='kslider--subtitle mb-25'
-                            data-animation='fadeInUp'
-                            data-delay='0.3s'>
-                            Welcome to digital agency
-                          </h5> */}
+                      <div className='ml-50'>
+                        {' '}
+                        <h5
+                          className='kslider--subtitle mb-25'
+                          data-animation='fadeInUp'
+                          data-delay='0.3s'>
+                          Maxime et Clément
+                        </h5>
+                      </div>
 
                       <h2
                         className='kslider--title mb-40 ml-50'
@@ -40,7 +43,9 @@ class HomeSlider extends Component {
                       </h2>
                       <div className='ml-100'>
                         <h3>
-                          L'expertise digitale et video en Hauts-de-France
+                          L'expertise digitale et audiovisuelle en
+                          Hauts-de-France <br /> Une équipe passionnée au
+                          service de vos projets
                         </h3>
                       </div>
 

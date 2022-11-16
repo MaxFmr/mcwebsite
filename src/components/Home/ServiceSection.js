@@ -5,9 +5,9 @@ class Service extends Component {
   render() {
     return (
       <section
-        className='service-area pt-120 pb-130'
+        className='service-area pt-120 pb-130 bg-black'
         style={{
-          backgroundImage: `url(${'assets/img/service/service-bg.jpg'})`,
+          backgroundImage: `url(${'assets/img/service/1.png'})`,
         }}>
         <div className='container'>
           <div className='row justify-content-between'>
@@ -19,10 +19,11 @@ class Service extends Component {
                 {/* <h5 className='kservice-text-subtitle mb-15'>
                   All Categories List
                 </h5> */}
-                <h2 className='kservice-text-title mb-40'>
-                  Nos services <br />
-                </h2>
-                <p className='mb-45'>
+                <div className='bg-dark'>
+                  <h2 className='kservice-text-title mb-40'>Nos services</h2>
+                </div>
+
+                <p className='mb-45 text-secondary'>
                   A vos côtés pour donner vie à vos projets digitaux.
                 </p>
                 <div className='kservice-author'>
@@ -50,14 +51,15 @@ class Service extends Component {
                       <i className='flaticon-analytics'></i>
                     </div>
                     <div className='kservice-content'>
-                      <Link href='/services'>
-                        <a>
-                          <h5 className='kservice-content-title'>
-                            Développement <br />
-                            Web
-                          </h5>
-                        </a>
-                      </Link>
+                      {/* <Link href='/services'> */}
+                      <a>
+                        <h5 className='kservice-content-title'>
+                          Développement <br />
+                          Web
+                          <br /> et mobile
+                        </h5>
+                      </a>
+                      {/* </Link> */}
                     </div>
                   </div>
                 </div>
@@ -67,14 +69,17 @@ class Service extends Component {
                       <i className='flaticon-marketing'></i>
                     </div>
                     <div className='kservice-content'>
-                      <Link href='/services'>
-                        <a>
-                          <h5 className='kservice-content-title'>
-                            UX/UI
-                            <br /> Design
-                          </h5>
-                        </a>
-                      </Link>
+                      {/* <Link href='/services'> */}
+                      <a>
+                        <h5 className='kservice-content-title'>
+                          UX/UI
+                          <br />
+                          <span> Design </span>
+                          <br />
+                          d'interfaces
+                        </h5>
+                      </a>
+                      {/* </Link> */}
                     </div>
                   </div>
                 </div>
@@ -85,12 +90,12 @@ class Service extends Component {
                     </div>
                     <div className='kservice-content'>
                       <h5 className='kservice-content-title'>
-                        <Link href='/services'>
-                          <a>
-                            Image <br />
-                            Production vidéo
-                          </a>
-                        </Link>
+                        {/* <Link href='/services'> */}
+                        <a>
+                          Image/Son <br />
+                          Production Audiovisuelle
+                        </a>
+                        {/* </Link> */}
                       </h5>
                     </div>
                   </div>
@@ -102,12 +107,14 @@ class Service extends Component {
                     </div>
                     <div className='kservice-content'>
                       <h5 className='kservice-content-title'>
-                        <Link href='/services'>
-                          <a>
-                            Formation <br />
-                            E-learning
-                          </a>
-                        </Link>
+                        {/* <Link href='/services'> */}
+                        <a>
+                          <span>Pédagogie </span>
+                          <br />
+                          Formation <br />
+                          E-learning
+                        </a>
+                        {/* </Link> */}
                       </h5>
                     </div>
                   </div>

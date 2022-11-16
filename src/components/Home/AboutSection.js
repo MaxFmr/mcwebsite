@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 class About extends Component {
@@ -13,23 +14,30 @@ class About extends Component {
                 data-aos='zoom-out-up'
                 data-swiper-autoplay='10000'>
                 <div className='kabout-img-shape'></div>
-                <img
-                  src='assets/img/about/about-img-1.jpg'
+                <Image
+                  src='/assets/img/about/1.jpg'
                   className='img-fluid z-index'
                   alt='about-img'
+                  height={500}
+                  width={500}
+                  objectFit='cover'
                 />
                 <div className='kabout-img-small'>
-                  <img
-                    src='assets/img/about/about-img-2.jpg'
+                  <Image
+                    src='/assets/img/about/2.webp'
                     className='img-fluid'
                     alt='about-img'
+                    height={300}
+                    width={300}
                   />
-                  <div className='kabout-img-small-icon play_btn'>
+
+                  <div className='kabout-img-small-icon play_btn '>
                     <span>
                       <img
                         src='assets/img/icon/about-icon.png'
                         className='img-fluid'
                         alt='about-icon'
+                        objectFit='cover'
                       />
                     </span>
                   </div>
