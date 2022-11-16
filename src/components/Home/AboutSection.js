@@ -30,7 +30,6 @@ class About extends Component {
                     height={300}
                     width={300}
                   />
-
                   <div className='kabout-img-small-icon play_btn '>
                     <span>
                       <img

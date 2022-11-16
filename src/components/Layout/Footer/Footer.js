@@ -6,7 +6,8 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <footer
-      style={{ backgroundImage: `url(${'assets/img/bg/footer-bg.jpg'})` }}
+      // style={{ backgroundImage: `url(${'assets/img/bg/footer-bg.jpg'})` }}
+      style={{ backgroundColor: 'black' }}
       className='pt-95 position-relative'>
       <div
         className='common-shape-wrapper wow slideInRight animated'

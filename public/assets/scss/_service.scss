@@ -42,21 +42,21 @@
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
   }
-  &:hover {
-    background: $theme-color;
-    &:before {
-      opacity: 0.102;
-    }
-    .kservice-icon {
-      animation-name: wobble-vertical;
-      animation-duration: 1s;
-      animation-timing-function: ease-in-out;
-      animation-iteration-count: 1;
-      & i {
-        color: $white-color;
-      }
-    }
-  }
+  // &:hover {
+  //   background: $theme-color;
+  //   &:before {
+  //     opacity: 0.102;
+  //   }
+  //   .kservice-icon {
+  //     animation-name: wobble-vertical;
+  //     animation-duration: 1s;
+  //     animation-timing-function: ease-in-out;
+  //     animation-iteration-count: 1;
+  //     & i {
+  //       color: $white-color;
+  //     }
+  //   }
+  // }
 }
 .kservice-icon {
   display: inline-block;

@@ -13,7 +13,8 @@ class HomeSlider extends Component {
         <div
           className='slide-bg'
           style={{
-            backgroundImage: `url(${'assets/img/slider/slider-1.jpg'})`,
+            // backgroundImage: `url(${'assets/img/slider/slider-1.jpg'})`,
+            backgroundColor: 'black',
           }}></div>
         <div className='container'>
           <div className='row'>
@@ -36,9 +37,10 @@ class HomeSlider extends Component {
                   Production digitale
                 </h2>
                 <div className='ml-100'>
-                  <h3>
-                    L'expertise digitale et audiovisuelle en Hauts-de-France{' '}
-                    <br /> Une équipe passionnée au service de vos projets
+                  <h3 className='text-white'>
+                    L'expertise digitale et audiovisuelle en Hauts-de-France.{' '}
+                    <br />
+                    Une équipe passionnée au service de vos projets.
                   </h3>
                 </div>
 
