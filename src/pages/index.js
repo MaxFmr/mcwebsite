@@ -24,7 +24,7 @@ class Index extends React.Component {
           />
           <meta
             name='description'
-            content='MC Production Agence digitale, de développement de sites et applications web, video, production audiovisuelle, e-learning, sound design, mixage audio, musique à la demande, photos en Hauts-de-France basée à Cambrai et Valenciennes. Notre expertise, vos besoins, vos solutions. Mettons en valeur votre métier.'
+            content='MC Production digitale, agence digitale-video, de développement de sites et applications web, production audiovisuelle, e-learning, sound design, mixage audio, musique à la demande, photos en Hauts-de-France basée à Cambrai et Valenciennes. Notre expertise, vos besoins, vos solutions. Mettons en valeur votre métier.'
           />
         </Head>
         <Header />
