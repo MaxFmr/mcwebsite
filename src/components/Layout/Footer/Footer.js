@@ -54,7 +54,7 @@ const Footer = () => {
                       alt='icon-img'
                     />
                     <a href='mailto:needhelp@company.com'>
-                      maxime.kerlidou@gmail.com
+                      maxime@mc-production.fr
                     </a>
                   </li>
                 </ul>
