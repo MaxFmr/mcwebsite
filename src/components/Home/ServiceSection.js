@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Link from 'next/link';
 import { ParallaxBanner } from 'react-scroll-parallax';
 
-const photoPath = '/assets/img/service/1.png';
+const photoPath = '/assets/img/service/2.webp';
 
 class Service extends Component {
   render() {
