@@ -1,18 +1,18 @@
-<svg width="2192" height="2091" viewBox="0 0 2192 2091" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="2427" height="2301" viewBox="0 0 2427 2301" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g filter="url(#filter0_d_3_35)">
-<rect x="70" width="2118" height="2083" rx="100" fill="black"/>
+<rect x="4" width="2419" height="2293" rx="1000" fill="black"/>
 </g>
-<rect x="1190.06" y="411" width="145.369" height="1150.53" rx="72.6846" transform="rotate(0.152602 1190.06 411)" fill="white"/>
-<rect x="982" y="342" width="80" height="105" fill="black"/>
-<rect x="1226.5" y="401.416" width="122.16" height="680.59" rx="61.0801" transform="rotate(30.2736 1226.5 401.416)" fill="white"/>
-<rect x="541" y="463" width="149" height="1297" rx="74.5" fill="white"/>
-<path d="M404.589 298.673C381.06 260.877 393.035 211.137 431.187 188.191C470.259 164.692 521.044 178.677 542.578 218.866L985.743 1045.96C991.994 1057.63 993.287 1071.32 989.333 1083.95C976.743 1124.16 922.762 1131.04 900.495 1095.27L404.589 298.673Z" fill="white"/>
-<rect x="951" y="291" width="123" height="169" fill="black"/>
-<rect x="981" y="342" width="103" height="98" fill="black"/>
-<rect width="1971.55" height="2031.46" transform="matrix(-0.00157407 -0.999999 0.999999 -0.0014826 3.10336 2007.56)" fill="url(#pattern0)"/>
-<rect x="982" y="376" width="73" height="43" fill="black"/>
+<rect x="1337.06" y="580" width="145.369" height="1150.53" rx="72.6846" transform="rotate(0.152602 1337.06 580)" fill="white"/>
+<rect x="1129" y="511" width="80" height="105" fill="black"/>
+<rect x="1373.5" y="570.416" width="122.16" height="680.59" rx="61.0801" transform="rotate(30.2736 1373.5 570.416)" fill="white"/>
+<rect x="688" y="632" width="149" height="1297" rx="74.5" fill="white"/>
+<path d="M551.589 467.673C528.06 429.877 540.035 380.137 578.187 357.191C617.259 333.692 668.044 347.677 689.578 387.866L1132.74 1214.96C1138.99 1226.63 1140.29 1240.32 1136.33 1252.95C1123.74 1293.16 1069.76 1300.04 1047.49 1264.27L551.589 467.673Z" fill="white"/>
+<rect x="1098" y="460" width="123" height="169" fill="black"/>
+<rect x="1128" y="511" width="103" height="98" fill="black"/>
+<rect width="1971.55" height="2031.46" transform="matrix(-0.00157407 -0.999999 0.999999 -0.0014826 150.103 2176.56)" fill="url(#pattern0)"/>
+<rect x="1129" y="545" width="73" height="43" fill="black"/>
 <defs>
-<filter id="filter0_d_3_35" x="66" y="0" width="2126" height="2091" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_3_35" x="0" y="0" width="2427" height="2301" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
