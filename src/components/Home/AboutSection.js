@@ -56,7 +56,7 @@ class About extends Component {
                   </h2>
                   <p>
                     MC production, c'est la rencontre entre deux passionnés du
-                    le web, de l'image et du son animés par le désire de mettre
+                    web, de l'image et du son animés par le désire de mettre
                     leur compétences à la disposition des entreprises et des
                     particuliers.
                   </p>
