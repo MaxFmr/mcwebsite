@@ -9,25 +9,10 @@ const HomeSlider = dynamic(
     ssr: false,
   }
 );
-const Testimonial = dynamic(
-  () => import('../Elements/Testimonials/TestimonialsSection'),
-  {
-    ssr: false,
-  }
-);
+
 const Brand = dynamic(() => import('../Elements/Brand/BrandSection'), {
   ssr: false,
 });
-import Trust from './TrustSection';
-import Quality from './QualitySection';
-import Map from './MapSection';
-import Project from './ProjectSection';
-const BlogSlider = dynamic(
-  () => import('../Elements/Slider/BlogSliderSection'),
-  {
-    ssr: false,
-  }
-);
 
 class HomeMain extends Component {
   render() {
@@ -57,25 +42,9 @@ class HomeMain extends Component {
         {/* <Video /> */}
         {/* video-end */}
 
-        {/* testimonial-start */}
-        {/* <Testimonial /> */}
-        {/* testimonial-end */}
-
         {/* brand-start */}
         <Brand />
         {/* brand-end */}
-
-        {/* trust-start */}
-        {/* <Trust /> */}
-        {/* trust-end */}
-
-        {/* quality-start */}
-        {/* <Quality /> */}
-        {/* quality-end */}
-
-        {/* map-start */}
-        {/* <Map /> */}
-        {/* map-end */}
       </main>
     );
   }
