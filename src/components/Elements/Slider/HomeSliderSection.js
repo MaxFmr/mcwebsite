@@ -62,7 +62,7 @@ class HomeSlider extends Component {
                       <a
                         target={'_blank'}
                         className='theme-btn theme-btn-small ml-100 mt-50'>
-                        Discutons de vos besoins
+                        Prenons rendez-vous
                       </a>
                     </Link>
                   </div>

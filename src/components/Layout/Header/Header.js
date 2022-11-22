@@ -54,8 +54,8 @@ const Header = () => {
                           src='/assets/img/logo/favicon.png'
                           className='img-fluid'
                           alt='logo-img'
-                          width={80}
-                          height={80}
+                          width={120}
+                          height={120}
                           quality={100}
                         />
                       </a>
